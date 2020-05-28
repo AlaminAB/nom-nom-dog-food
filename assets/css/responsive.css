@@ -1,0 +1,172 @@
+
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px){ 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) { 
+img.d-none.sm-device-open {
+    width: 100%;
+    max-width: 60px;
+}
+
+.sm-device-open{
+	display: block !important;
+}
+.sm-device-none{
+	display: none !important;
+}
+a.order-button {
+    padding: 0 15px;
+    margin-right: 0px;
+
+}
+
+li.nav-item {
+    margin-right: 0px;
+}
+ul.navbar-nav.ml-auto.mt-2.mt-lg-0 {
+    margin-top: 0px !important;
+}
+.section1-content h1 {
+    font-size: 80px;
+    line-height: 70px;
+}
+.sldide-area h2 {
+    font-size: 36px;
+    }
+    .fress-food-left h2 {
+    font-size: 80px;
+    line-height: 70px;
+    color: #535435;
+}
+.fress-food-right-heading h3 {
+    font-family: Druk, Impact, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: .02em;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+.mixed-food-right h2 {
+    font-family: Druk,Impact,sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: .02em;
+    line-height: 70px;
+}
+.delivered-food-right h2 {
+    font-size: 80px;
+    line-height: 70px;
+    color: #ee2737;
+    margin-bottom: 20px;
+}
+.change-left-des h2 {
+    font-size: 80px;
+    line-height: 70px;
+    color: #535435;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+
+@media (max-width: 576px){
+	a.order-button {
+    position: absolute;
+    right: 65px;
+    top: 0;
+}
+	ul.dropdown-content {
+position: static;
+display: none;
+border: none;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	}
+	.dropdown-hover:hover ul.dropdown-content{
+
+display: block;
+	}
+   ul.navbar-nav.ml-auto.mt-2.mt-lg-0 {
+    padding-top: 10px !important;
+}	
+nav.navbar.navbar-expand-sm {
+    padding-left: 0;
+    padding-right: 0px;
+}
+img.d-none.sm-device-open {
+    margin-left: 20px;
+}
+ul.navbar-nav.ml-auto.mt-2.mt-lg-0 {
+    background: #fff;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.section1-des h1 br {
+    display: none;
+}
+.week-count {
+    margin-right: 35px;
+}
+
+.section1-content h1 {
+    font-size: 70px;
+    line-height: 62px;
+}
+.sldide-area h2 {
+    font-size: 28px;
+    }
+    .fress-food-left h2 {
+    font-size: 70px;
+    line-height: 62px;
+    color: #535435;
+}
+.fress-food-right-heading h3 {
+    font-family: Druk, Impact, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: .02em;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.mixed-food-right h2 {
+    font-family: Druk,Impact,sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: .02em;
+    line-height: 62px;
+}
+.delivered-food-right h2 {
+    font-size: 70px;
+    line-height: 62px;
+    color: #ee2737;
+    margin-bottom: 20px;
+}
+.change-left-des h2 {
+    font-size: 70px;
+    line-height: 62px;
+    color: #535435;
+}
+.week-count h4 {
+    font-family: Druk,Impact,sans-serif;
+    font-size: 40px;
+    }
+}
